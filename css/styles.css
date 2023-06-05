@@ -116,7 +116,8 @@ img {
   background-color: var(--second-color);
   width: 100%;
   max-width: 1470px;
-  height: 600px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .hero-title {
@@ -129,10 +130,8 @@ img {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
   max-width: 496px;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .hero-btn {
   font-family: "Roboto", sans-serif;
@@ -156,11 +155,18 @@ img {
 .hero-btn:hover {
   background-color: var(--text-color);
 }
-
+.adv {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+  padding-top: 104px;
+  padding-bottom: 104px;
+}
 .adv-list {
+  display: flex;
+  gap: 24px;
 }
-.adv-item {
-}
+
 .adv-title {
   font-weight: 500;
   font-size: 20px;
@@ -173,6 +179,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--link-color);
+  padding-top: 8px;
 }
 .desc-title {
   font-weight: 700;
