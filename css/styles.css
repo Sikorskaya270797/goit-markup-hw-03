@@ -44,7 +44,7 @@ img {
 }
 /**--------------Header-------------------------------**/
 .header {
-  padding: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-menu {
   display: flex;
@@ -59,6 +59,7 @@ img {
   display: flex;
   flex-grow: 1;
   gap: 40px;
+  align-items: center;
 }
 .header-container {
   display: flex;
@@ -72,6 +73,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-color);
+  margin-right: 76px;
 }
 
 .header-logo span {
@@ -89,6 +91,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-menu-link:hover {
   color: var(--text-color);
@@ -117,8 +121,7 @@ img {
   background-color: var(--second-color);
   width: 100%;
   max-width: 1470px;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -149,6 +152,7 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
+  min-width: 169px;
 }
 .hero-btn:focus {
   background-color: var(--text-color);
@@ -209,10 +213,10 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: var(--second-color);
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .desc {
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 .desc-links {
   display: flex;
@@ -224,6 +228,7 @@ img {
 .team {
   background-color: var(--footer-text-color);
   padding: 120px;
+  border-radius: 0px 0px 4px 4px;
 }
 .team-title {
   font-weight: 700;
@@ -232,7 +237,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--second-color);
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 
   text-align: center;
 }
@@ -274,10 +279,12 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--footer-text-color);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer {
   background: #2e2f42;
-  padding: 100px;
+  padding: 100px 0;
 }
 .footer-logo span {
   color: var(--accent-color);
@@ -316,6 +323,7 @@ img {
   display: block;
 }
 .header {
+  border-bottom: 1px solid #e7e9fc;
   padding: 24px;
 }
 .header-menu {
@@ -378,10 +386,12 @@ img {
 .aplication-btn:hover {
   color: var(--background-color);
   background-color: var(--text-color);
+  border: 1px solid transparent;
 }
 .aplication-btn:focus {
   color: var(--background-color);
   background-color: var(--text-color);
+  border: 1px solid transparent;
 }
 .imagess {
   display: flex;
@@ -422,6 +432,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-color);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer {
